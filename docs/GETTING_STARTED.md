@@ -131,7 +131,7 @@ You need two things in your Polygon wallet:
 4. Replace `<password>` with your actual password
 5. Replace `myFirstDatabase` with `polymarket`
 
-Example: `mongodb+srv://myusername676:mypassword676@cluster0.qzpwa2p.mongodb.net/?appName=Cluster0`
+Example: `mongodb+srv://<username>:<password>@<cluster>/<database>?retryWrites=true&w=majority`
 
 ### 4. Get RPC Endpoint (Free)
 
@@ -412,4 +412,3 @@ npm start
 ---
 
 **Disclaimer:** This software is for educational purposes. Trading involves risk of loss. The developers are not responsible for any financial losses. Only invest what you can afford to lose.
-

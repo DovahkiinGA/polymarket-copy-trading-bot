@@ -183,26 +183,19 @@ async function findRealProxyWallet() {
 
     // Step 4: Final instructions
     console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n');
-    console.log('💡 MANUAL METHOD (100% works):\n');
+    console.log('💡 SAFE NEXT STEPS:\n');
     console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n');
 
-    console.log('1. Open polymarket.com\n');
-    console.log('2. Import private key into MetaMask:\n');
-    console.log(`   ${PRIVATE_KEY.slice(0, 10)}...${PRIVATE_KEY.slice(-6)}\n`);
-    console.log('3. Connect to Polymarket\n');
-    console.log('4. Open browser console (F12)\n');
-    console.log('5. Execute:\n');
-    console.log('   localStorage\n');
-    console.log('   or\n');
-    console.log('   window.ethereum.selectedAddress\n');
-    console.log('6. Copy the address you see there\n');
-    console.log('7. Send me this address\n');
+    console.log('1. Do not paste your private key into browser tools, console, chat, or third-party sites.\n');
+    console.log('2. Use the address discovered by this script as your candidate PROXY_WALLET.\n');
+    console.log('3. Verify it on Polymarket profile and Polygonscan before updating .env.\n');
+    console.log('4. If you need browser access, connect the original wallet through a trusted wallet app directly.\n');
 
     console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n');
 
     console.log('🔍 OR check in browser:\n');
     console.log('   1. Go to polymarket.com\n');
-    console.log('   2. Connect wallet\n');
+    console.log('   2. Connect with a trusted wallet app\n');
     console.log('   3. Click on profile icon\n');
     console.log('   4. Copy the address shown there\n');
     console.log('   5. This is your real Proxy address!\n');

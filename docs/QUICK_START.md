@@ -43,13 +43,17 @@ Edit `.env` with your settings:
 USER_ADDRESSES = '0x7c3db723f1d4d8cb9c550095203b686cb11e5c6b'
 
 # Your trading wallet (the wallet that will execute trades)
+# Public on-chain address, but still privacy-sensitive
 PROXY_WALLET = 'your_polygon_wallet_address'
+# Secret: never share, commit, or paste into untrusted tools
 PRIVATE_KEY = 'your_private_key_without_0x_prefix'
 
 # MongoDB (get free database at mongodb.com/cloud/atlas)
+# Secret: contains database credentials. Use your own database only.
 MONGO_URI = 'mongodb+srv://username:password@cluster.mongodb.net/database'
 
 # Polygon RPC (get free key at infura.io or alchemy.com)
+# Often sensitive: many providers embed a project ID or API key in the URL.
 RPC_URL = 'https://polygon-mainnet.infura.io/v3/YOUR_PROJECT_ID'
 
 # Don't change these

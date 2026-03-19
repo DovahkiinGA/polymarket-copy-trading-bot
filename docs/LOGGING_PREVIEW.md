@@ -183,7 +183,7 @@ The **PolyCopy** ASCII logo features a beautiful gradient:
 ```
 Target User Wallet addresss is: 0x7c3db723f1d4d8cb9c550095203b686cb11e5c6b
 My Wallet addresss is: 0x4fbBe5599c06e846D2742014c9eB04A8a3d1DE8C
-API Key derived { key: '...', secret: '...', passphrase: '...' }
+API credentials were printed to logs (unsafe)
 ClobClient { ... }
 Trade Monitor is running every 1 seconds
 ▰▰▱▱▱ Waiting for new transactions from 4 trader(s)

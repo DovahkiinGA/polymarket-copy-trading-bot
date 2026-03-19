@@ -54,6 +54,7 @@ USER_ADDRESSES = '
 '
 
 PROXY_WALLET = '0x4fbBe5599c06e846D2742014c9eB04A8a3d1DE8C'
+# Secret: never share, commit, or paste into untrusted tools
 PRIVATE_KEY = 'your_private_key_without_0x'
 ```
 

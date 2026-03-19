@@ -107,26 +107,19 @@ async function analyzeWallets() {
     console.log('💡 HOW TO ACCESS POSITIONS ON FRONTEND:\n');
     console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n');
 
-    console.log('🔧 OPTION 1: Import private key into MetaMask\n');
-    console.log('   1. Open MetaMask');
-    console.log('   2. Click account icon -> Import Account');
-    console.log('   3. Paste your PRIVATE_KEY from .env file');
-    console.log('   4. Connect to Polymarket with this account');
-    console.log('   5. Polymarket will automatically show the correct proxy wallet\n');
-
-    console.log('⚠️  WARNING: Never share your private key!\n');
-
-    console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n');
-    console.log('🔧 OPTION 2: Find proxy wallet via URL\n');
+    console.log('🔧 OPTION 1: Find proxy wallet via URL\n');
     console.log(`   Your positions are available at:\n`);
     console.log(`   https://polymarket.com/profile/${PROXY_WALLET}\n`);
     console.log(`   Open this link in browser to view.\n`);
 
     console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n');
-    console.log('🔧 OPTION 3: Check via Polygon Explorer\n');
+    console.log('🔧 OPTION 2: Check via Polygon Explorer\n');
     console.log(`   https://polygonscan.com/address/${PROXY_WALLET}\n`);
     console.log(`   Here you can see all transactions and tokens.\n`);
 
+    console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n');
+    console.log('⚠️  SECURITY NOTE:\n');
+    console.log('   Never paste your PRIVATE_KEY from .env into browser console, chat, or third-party tools.\n');
     console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n');
 
     // Step 8: Additional information
